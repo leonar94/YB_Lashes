@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>YB Lashes, servicios prestados con la últimas tendencias de embellecimiento facial</title>
   <meta charset="utf-8">
@@ -13,8 +14,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
-  <meta name="description" content="Sitio web de YB lashes estudio de cejas y pestañas, donde podrás ver el trabajo que realizamos con las últimas técnicas en el mercado, porás contratar nuestros servicios y comprar nuestros productos">
-  <meta name="keywords" content="depilación, epilación, lifting, cosmetica, facial, dermatología, maquillaje, cejas, pestañas, rostros, bozo, vello, hilo">
+  <meta name="description"
+    content="Sitio web de YB lashes estudio de cejas y pestañas, donde podrás ver el trabajo que realizamos con las últimas técnicas en el mercado, porás contratar nuestros servicios y comprar nuestros productos">
+  <meta name="keywords"
+    content="depilación, epilación, lifting, cosmetica, facial, dermatología, maquillaje, cejas, pestañas, rostros, bozo, vello, hilo">
+  <script src="script.js"></script>
 </head>
 
 <header>
@@ -29,6 +33,7 @@
 </header>
 
 <body>
+
   <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
     <!-- Links -->
     <ul class="navbar-nav">
@@ -54,120 +59,66 @@
   </nav>
 
   <div class="barra" style="margin-top: 30px"> PRODUCTOS</div>
+  <section id=mercancia>
+    <div class="row">
+      <div class="offset-md-2 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="text-align: center;font-weight: bold; justify-content: center; padding: 10px">
+          Combo de Pestañas
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/combotres.jpg" alt="combo" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">3.500 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary" onclick="agregarAListaCarrito('producto1')"
+            style="cursor: pointer;">Agregar</span>
+        </div>
 
-  <div class="row">       
-    <div class="offset-md-2 col-md-2 col-sm-6 col-12 border" >
-      <div class="row" style="text-align: center;font-weight: bold; justify-content: center; padding: 10px"> 
-        Combo de Pestañas
       </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/combotres.jpg" alt="combo" width="150" height="130">
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">3.500 ARS</span>
-      </div>
-    </div>
-    <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Molde de silicona
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/moldes.jpg" alt="molde" width="150" height="130">
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">2.000 ARS</span>
-      </div>
-    </div>
 
-    <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Kit mirada perfecta
+      <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="justify-content: center;font-weight: bold; padding: 10px">
+          Molde de silicona
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/moldes.jpg" alt="molde" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">2.000 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary" onclick="agregarAListaCarrito('producto2')"
+            style="cursor: pointer;">Agregar</span>
+        </div>
+
       </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/kitmirada.jpg" alt="kit" width="150" height="130" >
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">3.000 ARS</span>
-      </div>
-    </div>
-  </div>
-  <div class="row" style="margin-top: 30px">       
-    <div class="offset-md-2 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Pega de pestañas
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/pega.jpg"  alt="combo" width="150" height="130">
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">800 ARS</span>
-      </div>
-    </div>
-    <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Henna
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/hennas.jpg" alt="kit" width="150" height="130" >
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">1.000 ARS</span>
+
+      <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
+        <div class="row" style="justify-content: center;font-weight: bold; padding: 10px">
+          Kit mirada perfecta
+        </div>
+        <div class="row" style="justify-content: center;">
+          <img class="img-fluid" src="pic/kitmirada.jpg" alt="kit" width="150" height="130">
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary">3.000 ARS</span>
+        </div>
+        <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+          <span class="badge badge-pill badge-secondary" onclick="agregarAListaCarrito('producto3')"
+            style="cursor: pointer;">Agregar</span>
+        </div>
+
       </div>
     </div>
 
-    <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Shampoo de pestañas
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/champu.jpg" alt="kit" width="150" height="130" >
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">1.300 ARS</span>
-      </div>
+    <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
+      <button type="button" onclick="verListaCarrito()"
+        style=" text-align: center; background-color: #dbaf5c; border-color: #dbaf5c;" ;>Ver
+        carrito</button>
     </div>
-  </div>
-
-
-  <div class="row" style="margin-top: 30px">
-
-    <div class="offset-md-2 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center;font-weight: bold; padding: 10px"> 
-        Cepillitos
-      </div>
-      <div class="row" style="justify-content: center;font-weight: bold"> 
-        <img class="img-fluid" src="pic/cepillo.jpg"  alt="combo" width="150" height="130">
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">1.900 ARS</span>
-      </div>
-
-    </div>
-    <div class=" offset-md-1 col-md-2 col-sm-6 col-12 border">
-      <div class="row" style="justify-content: center; font-weight: bold; padding: 10px"> 
-        Extensiones pelo por pelo
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid" src="pic/pestados.jpg" alt="molde" width="150" height="130">
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">2.200 ARS</span>
-      </div>
-    </div>
-    <div class="offset-md-1 col-md-2 col-12 border">
-      <div class="row" style="justify-content: center; font-weight: bold; padding: 10px" > 
-        Parches de hydrogel
-      </div>
-      <div class="row" style="justify-content: center;"> 
-        <img class="img-fluid"  src="pic/hydro.jpg" alt="kit" width="150" height="130" >
-      </div>
-      <div class="row" style="justify-content: center; margin-top: 20px; margin-bottom: 20px">
-        <span class="badge badge-pill badge-secondary">2.000 ARS</span>
-      </div>
-    </div>
-
-  </div>
-
+  </section>
 
   <footer>
     <div class="row" style="justify-content: center;margin-top: 5px;">
@@ -178,4 +129,5 @@
     </div>
   </footer>
 </body>
+
 </html>
